@@ -1,9 +1,9 @@
 /* "Tamming" Box Model With Reset */
 
-html { 
-  box-sizing: border-box; 
+html {
+  box-sizing: border-box;
 }
-*, *:before, *:after { 
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
@@ -131,6 +131,23 @@ nav ul {
 
 .product {
   width: 30%;
+}
+.product{
+  animation-delay: .5s;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
+.product.watch{
+  animation-delay: .5s;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
+.product.glasses{
+  animation-delay: .5s;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
 }
 
 .product-image {
